@@ -1,31 +1,37 @@
 # Data Analyst Portfolio
 
-## 1. Data Cleaning with SQL: Employee Records Dataset
+## Limpieza Project (Cleaning Data with SQL)
 
-In this project, I undertook the challenge of cleaning a dataset related to employee records using SQL. The dataset, originally stored in a `.csv` format, contained various inconsistencies such as duplicate entries, incorrect data types, unnecessary spaces, and non-uniform naming conventions. Through a systematic approach, I applied multiple SQL techniques to transform the raw data into a clean, well-structured format ready for further analysis.
+This project, titled **Limpieza**, is a comprehensive data cleaning exercise using SQL. The dataset, also named "Limpieza," originally contained inconsistencies, duplicates, and formatting issues that required careful cleaning and transformation. Through this project, I demonstrate mastery of essential SQL skills, including data type conversion, handling duplicates, conditional transformations, and regular expressions.
 
-### Objectives
+### Project Overview
 
-- **Data Cleaning:** Ensure the dataset is free from duplicates, inconsistent formatting, and erroneous data.
-- **Data Transformation:** Standardize data types, convert date formats, and translate non-English text.
-- **Data Structuring:** Organize the dataset by reordering columns, generating new attributes (like age and email), and removing irrelevant information.
+The **Limpieza Project** is designed to showcase advanced SQL techniques applied to real-world data challenges. The steps involved in the cleaning process include:
 
-### SQL Techniques Demonstrated
+- **Data Import and Initial Setup**: The project begins by importing the dataset using the Table Data Import Wizard and setting up a safe environment for data modifications.
+- **Column Standardization**: Column names were standardized to ensure consistency in language, casing, and character usage.
+- **Duplicate Handling**: Duplicates were identified and removed by creating a temporary primary key and applying the `ROW_NUMBER` function to select the appropriate rows.
+- **Whitespace Management**: Extra spaces within text fields were identified and trimmed, ensuring clean and uniform text data.
+- **Translation and Transformation**: Non-English values were translated, and Boolean fields were converted from integer representations to more meaningful text descriptions.
+- **Date Handling**: Dates were transformed into the standard `YYYY-MM-DD` format, and data types were adjusted accordingly.
+- **New Columns**: Additional columns were generated to enhance the dataset, such as calculating employees' ages and generating email addresses based on existing data.
+- **Data Export**: Finally, the cleaned data was reorganized and exported for further analysis.
 
-This project showcases proficiency in various SQL concepts, including but not limited to:
+### SQL Skills Demonstrated
 
-- **Data Manipulation:** Using `UPDATE`, `DELETE`, and `ALTER TABLE` statements to refine and correct data entries.
-- **String Functions:** Applying functions like `TRIM`, `REPLACE`, and `CONCAT` to clean and format text data.
-- **Date Functions:** Converting date formats and calculating age using functions like `DATE_FORMAT`, `STR_TO_DATE`, and `TIMESTAMPDIFF`.
-- **Subqueries and Window Functions:** Leveraging subqueries and `ROW_NUMBER()` for duplicate removal and data validation.
-- **Exporting Data:** Efficiently exporting the cleaned dataset into a new `.csv` file for further analysis or reporting.
+This project highlights several key SQL skills, including but not limited to:
 
-### Files Available for Download
+- **Data Type Conversion**: Effective use of `CAST`, `CONVERT`, and `ALTER TABLE` to manage and correct data types.
+- **Handling Duplicates**: Using `ROW_NUMBER` and subqueries to identify and remove duplicate entries.
+- **String Manipulation**: Utilizing functions like `TRIM`, `REPLACE`, and `CONCAT` to clean and standardize text data.
+- **Conditional Logic**: Implementing `CASE` statements to transform data based on specific conditions.
+- **Date and Time Functions**: Expertise in handling date formats and converting between date and text data types.
 
-To better understand the data cleaning process, you can explore the following files:
+### Files
 
-1. **Original Dataset:** The raw dataset before any cleaning was performed. [Link to original `.csv` file]
-2. **SQL Code:** The full SQL script used to clean the dataset. [Link to `.sql` file]
-3. **Cleaned Dataset:** The final, cleaned version of the dataset. [Link to cleaned `.csv` file]
+- [Original Dataset (.csv)](link-to-original-dataset)
+- [SQL Code (.sql)](link-to-sql-code)
+- [Cleaned Dataset (.csv)](link-to-cleaned-dataset)
 
-By working through this project, I demonstrated my ability to clean, transform, and structure data using SQL, ensuring that the final dataset is accurate, consistent, and ready for analysis.
+This project underscores the importance of data cleaning as a critical step in any data analysis process. By systematically addressing the issues within the dataset, the **Limpieza Project** transforms raw data into a polished and ready-to-use form.
+
