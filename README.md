@@ -35,37 +35,34 @@ This project highlights several key SQL skills, including but not limited to:
 
 This project underscores the importance of data cleaning as a critical step in any data analysis process. By systematically addressing the issues within the dataset, the **Limpieza Project** transforms raw data into a polished and ready-to-use form.
 
-## 2. Cyclistic Case Study (Maximizing Annual Memberships)
+## 2. Cyclistic Case Study (Data Exploration for Business Solution with R)
 
-This project, titled **Cyclistic Case Study**, was conducted as the capstone project for the Google Data Analysis Certificate. The goal was to analyze the usage patterns of Cyclistic’s public bike service to develop strategies for increasing annual memberships. The analysis focused on identifying key differences between subscribers and casual riders, and proposing business solutions to optimize membership growth.
+This project, completed as the capstone project for the Google Data Analysis Certificate, explores the usage patterns of Cyclistic’s public bike service to develop strategies for maximizing annual memberships. The analysis focuses on identifying key differences between casual riders and annual members and proposing business solutions based on these insights.
 
 ### Project Overview
 
-The **Cyclistic Case Study** involved an in-depth exploration of bike usage data from the first quarter of 2019. Key aspects of the analysis included:
+The **Cyclistic Membership Analysis** involved analyzing a dataset of bike trips to identify factors that could encourage casual users to become annual subscribers. The analysis includes:
 
-- **Age and User Type Analysis**: Explored the relationship between rider age and membership type to identify potential target demographics for subscription promotions.
-- **Trip Duration Analysis**: Examined how trip duration varies between subscribers and casual riders to understand usage patterns and inform pricing strategies.
-- **Relationship Between Age and Trip Duration**: Investigated how age impacts trip duration to uncover trends that could guide targeted marketing efforts.
+- **Exploring Age and User Type**: Analyzed the distribution of user ages and compared statistics between casual and annual members to understand age-related patterns.
+- **Examining Trip Duration**: Investigated how trip durations vary by user type to identify typical usage patterns and potential pricing strategies.
+- **Correlation Between Age and Trip Duration**: Explored the relationship between user age and trip duration to find potential overlaps and opportunities for targeted marketing.
 
-### Key Insights
+A detailed PowerPoint presentation was created to communicate the findings and recommendations for increasing annual memberships. The presentation includes visualizations and plots created using R.
 
-1. **Age Distribution**: Found that younger riders and those taking longer trips were more likely to be casual users, suggesting these groups as potential targets for discounted subscriptions.
-2. **Trip Duration**: Identified that shorter trips were more common among subscribers, while casual users tended to take longer rides. This insight led to recommendations for adjusting pricing strategies to encourage casual riders to become subscribers.
-3. **Combined Strategy**: Proposed a dual approach of offering discounts to younger users and increasing prices for long trips, aiming to convert casual riders into subscribers by addressing both their demographic and usage patterns.
+### R Skills Demonstrated
 
-### Skills Demonstrated
+This project showcases several R skills, including:
 
-The project showcases a variety of data analysis skills, including:
-
-- **Data Cleaning and Preparation**: Using R and `tidyverse` for initial data exploration and cleaning.
-- **Exploratory Data Analysis (EDA)**: Utilizing summary statistics and visualizations to understand data distributions and relationships.
-- **Visualization**: Creating informative plots using `ggplot2` to visualize age distribution, trip duration, and their relationship.
-- **Hypothesis Testing**: Formulating and testing hypotheses about user behavior to drive business recommendations.
+- **Data Manipulation**: Used `dplyr` functions like `group_by`, `summarize`, and `filter` to process and analyze the dataset.
+- **Data Visualization**: Created visualizations using `ggplot2`, including `geom_boxplot` for age and trip duration distributions, and `geom_point` and `geom_jitter` for scatterplots analyzing age vs. trip duration.
+- **Statistical Analysis**: Applied summary statistics functions such as `min`, `max`, `mean`, `median`, and `quantile` to understand data distribution.
+- **Data Exploration for Business Solutions**: Employed data exploration techniques to generate actionable business insights, focusing on strategies to increase memberships based on user behavior.
 
 ### Files
 
-- [Dataset (.csv)](https://github.com/CarlosdlRosa/PortfolioFiles/blob/main/Cyclistic_Trips_2019_Q1.csv)
-- [R Code (.R)](https://github.com/CarlosdlRosa/PortfolioFiles/blob/main/cyclistic_analysis.R)
-- [Presentation (.pptx)](https://github.com/CarlosdlRosa/PortfolioFiles/blob/main/Cyclistic_Case_Study_Presentation.pptx)
+- [Dataset (.zip)](https://github.com/CarlosdlRosa/PortfolioFiles/blob/main/Cyclistic_Trips_2019_Q1.zip)
+- [R Code (.R)](https://github.com/CarlosdlRosa/PortfolioFiles/blob/main/Cyclistic_Trips_data_exploration.R)
+- [PowerPoint Presentation (.pptx)](https://github.com/CarlosdlRosa/PortfolioFiles/blob/main/Cyclistic%20case%20study%20presentation.pptx)
 
-This project demonstrates the application of data analysis techniques to real-world business problems, offering actionable insights for maximizing annual memberships and improving service offerings.
+This project highlights the application of data analysis techniques to real-world business problems, demonstrating how data exploration can inform strategic decisions and drive organizational growth.
+
