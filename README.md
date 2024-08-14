@@ -2,7 +2,7 @@
 
 ## 1. Limpieza Project (Cleaning Data with SQL)
 
-This project, titled **Limpieza**, is a comprehensive data cleaning exercise using SQL. The dataset, also named "Limpieza," originally contained inconsistencies, duplicates, and formatting issues that required careful cleaning and transformation. Through this project, I demonstrate mastery of essential SQL skills, including data type conversion, handling duplicates, conditional transformations, and regular expressions.
+This project, titled Limpieza, is a comprehensive data cleaning exercise using SQL, focused on refining a dataset related to employee records. The original dataset, also named "Limpieza," contained inconsistencies, duplicates, and formatting issues such as incorrect date formats, non-standardized text entries, and missing values. Through this project, I demonstrate mastery of essential SQL skills, including data type conversion, handling duplicates, conditional transformations, and regular expressions.
 
 ### Project Overview
 
@@ -29,9 +29,9 @@ This project highlights several key SQL skills, including but not limited to:
 
 ### Files
 
-- [Original Dataset (.csv)](link-to-original-dataset)
-- [SQL Code (.sql)](link-to-sql-code)
-- [Cleaned Dataset (.csv)](link-to-cleaned-dataset)
+- [Original Dataset (.csv)](https://github.com/CarlosdlRosa/PortfolioFiles/blob/main/Limpieza.csv)
+- [SQL Code (.sql)](https://github.com/CarlosdlRosa/PortfolioFiles/blob/main/limpieza.sql)
+- [Cleaned Dataset (.csv)](https://github.com/CarlosdlRosa/PortfolioFiles/blob/main/new_limpieza.csv)
 
 This project underscores the importance of data cleaning as a critical step in any data analysis process. By systematically addressing the issues within the dataset, the **Limpieza Project** transforms raw data into a polished and ready-to-use form.
 
