@@ -1,6 +1,6 @@
 # Data Analyst Portfolio
 
-## Limpieza Project (Cleaning Data with SQL)
+## 1. Limpieza Project (Cleaning Data with SQL)
 
 This project, titled **Limpieza**, is a comprehensive data cleaning exercise using SQL. The dataset, also named "Limpieza," originally contained inconsistencies, duplicates, and formatting issues that required careful cleaning and transformation. Through this project, I demonstrate mastery of essential SQL skills, including data type conversion, handling duplicates, conditional transformations, and regular expressions.
 
