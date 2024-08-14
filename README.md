@@ -35,3 +35,37 @@ This project highlights several key SQL skills, including but not limited to:
 
 This project underscores the importance of data cleaning as a critical step in any data analysis process. By systematically addressing the issues within the dataset, the **Limpieza Project** transforms raw data into a polished and ready-to-use form.
 
+## 2. Cyclistic Case Study (Maximizing Annual Memberships)
+
+This project, titled **Cyclistic Case Study**, was conducted as the capstone project for the Google Data Analysis Certificate. The goal was to analyze the usage patterns of Cyclistic’s public bike service to develop strategies for increasing annual memberships. The analysis focused on identifying key differences between subscribers and casual riders, and proposing business solutions to optimize membership growth.
+
+### Project Overview
+
+The **Cyclistic Case Study** involved an in-depth exploration of bike usage data from the first quarter of 2019. Key aspects of the analysis included:
+
+- **Age and User Type Analysis**: Explored the relationship between rider age and membership type to identify potential target demographics for subscription promotions.
+- **Trip Duration Analysis**: Examined how trip duration varies between subscribers and casual riders to understand usage patterns and inform pricing strategies.
+- **Relationship Between Age and Trip Duration**: Investigated how age impacts trip duration to uncover trends that could guide targeted marketing efforts.
+
+### Key Insights
+
+1. **Age Distribution**: Found that younger riders and those taking longer trips were more likely to be casual users, suggesting these groups as potential targets for discounted subscriptions.
+2. **Trip Duration**: Identified that shorter trips were more common among subscribers, while casual users tended to take longer rides. This insight led to recommendations for adjusting pricing strategies to encourage casual riders to become subscribers.
+3. **Combined Strategy**: Proposed a dual approach of offering discounts to younger users and increasing prices for long trips, aiming to convert casual riders into subscribers by addressing both their demographic and usage patterns.
+
+### Skills Demonstrated
+
+The project showcases a variety of data analysis skills, including:
+
+- **Data Cleaning and Preparation**: Using R and `tidyverse` for initial data exploration and cleaning.
+- **Exploratory Data Analysis (EDA)**: Utilizing summary statistics and visualizations to understand data distributions and relationships.
+- **Visualization**: Creating informative plots using `ggplot2` to visualize age distribution, trip duration, and their relationship.
+- **Hypothesis Testing**: Formulating and testing hypotheses about user behavior to drive business recommendations.
+
+### Files
+
+- [Dataset (.csv)](https://github.com/CarlosdlRosa/PortfolioFiles/blob/main/Cyclistic_Trips_2019_Q1.csv)
+- [R Code (.R)](https://github.com/CarlosdlRosa/PortfolioFiles/blob/main/cyclistic_analysis.R)
+- [Presentation (.pptx)](https://github.com/CarlosdlRosa/PortfolioFiles/blob/main/Cyclistic_Case_Study_Presentation.pptx)
+
+This project demonstrates the application of data analysis techniques to real-world business problems, offering actionable insights for maximizing annual memberships and improving service offerings.
