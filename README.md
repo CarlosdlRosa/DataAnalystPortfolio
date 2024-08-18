@@ -1,5 +1,11 @@
 # Data Analyst Portfolio
 
+## Index
+
+1. [Limpieza Project (Cleaning Data with SQL)](#1-limpieza-project-cleaning-data-with-sql)
+2. [Cyclistic Case Study (Data Exploration for Business Solution with R)](#2-cyclistic-case-study-data-exploration-for-business-solution-with-r)
+3. [2021-2022 Premier League Season Analysis (Data Exploration and Transformation with Python)](#3-2021-2022-premier-league-season-analysis-data-exploration-and-transformation-with-python)
+   
 ## 1. Limpieza Project (Cleaning Data with SQL)
 
 This project, titled Limpieza, is a comprehensive data cleaning exercise using SQL, focused on refining a dataset related to employee records. The original dataset, also named "Limpieza," contained inconsistencies, duplicates, and formatting issues such as incorrect date formats, non-standardized text entries, and missing values. Through this project, I demonstrate mastery of essential SQL skills, including data type conversion, handling duplicates, conditional transformations, and regular expressions.
@@ -66,3 +72,33 @@ This project showcases several R skills, including:
 
 This project highlights the application of data analysis techniques to real-world business problems, demonstrating how data exploration can inform strategic decisions and drive organizational growth.
 
+## 3. 2021-2022 Premier League Season Analysis (Data Exploration and Transformation with Python)
+
+This project involves a detailed analysis of the 2021-2022 Premier League season, utilizing Python for data exploration and visualization. The dataset, which includes match results and statistics, was analyzed to uncover key insights into team performance, goal-scoring trends, and league standings.
+
+### Project Overview
+
+The **Premier League Season Analysis** focuses on examining various aspects of the season, including:
+
+- **Goal Analysis**: Investigated whether more goals were scored by home or away teams, identified the top-performing home and away teams based on goals scored.
+- **Second Halves Analysis**: Analyzed team performance in the second halves of matches, including which teams suffered the most comebacks, completed the most comebacks, and earned the most points.
+- **Final League Standings**: Explored how many points each team earned by the end of the league and examined the standings at the end of each matchday, as well as created a new dataset with the final standings data from the pre-existing data of all the matches.
+  
+### Python Skills Demonstrated
+
+This project showcases several key Python skills, including:
+
+- **Data Loading and Exploring**: Leveraged `pandas` for loading and initial exploration of large datasets, including checking for null values and verifying dataset consistency with methods like `.info()`, `.columns`, and `.isnull()`.
+- **Data Aggregation and Analysis**: Utilized `pandas` functions such as `.groupby()`, `.sum()`, and `.unique()` to aggregate data and analyze goals scored by home and away teams, including calculating averages and identifying top performers.
+- **Advanced Data Manipulation**: Created and managed dictionaries to count and analyze complex metrics such as comebacks, second-half wins, and points earned, using Python's `iterrows()` for row-wise operations.
+- **Custom Computations**: Developed custom algorithms to compute league standings and simulate each matchday standings, involving conditionals to assign points and generate standings dynamically.
+- **Visualization**: Applied `matplotlib` and `seaborn` to create insightful visualizations of points earned in second halves, including bar plots and rotated x-axis labels for better readability.
+- **Data Transformation and Export**: Constructed and refined a final dataset including detailed metrics such as goals scored, goals conceded, and win-loss records, and exported the final DataFrame to a CSV file for further use.
+
+### Files
+
+- [Original Dataset (.csv)](https://github.com/CarlosdlRosa/PortfolioFiles/blob/main/Premier_League_2021-2022_Matches.csv)
+- [Python Code (.ipynb)](https://github.com/CarlosdlRosa/PortfolioFiles/blob/main/premier_league%20(english).ipynb)
+- [Final Standings Generated Dataset (.csv)](https://github.com/CarlosdlRosa/PortfolioFiles/blob/main/Premier_League_21-22_Final_Standings.csv)
+
+This project demonstrates how data analysis can provide valuable insights into sports performance and league dynamics, highlighting the application of Python for comprehensive data exploration and visualization.
