@@ -5,6 +5,8 @@
 1. [Limpieza Project (Cleaning Data with SQL)](#1-limpieza-project-cleaning-data-with-sql)
 2. [Cyclistic Case Study (Data Exploration for Business Solution with R)](#2-cyclistic-case-study-data-exploration-for-business-solution-with-r)
 3. [2021-2022 Premier League Season Analysis (Data Exploration and Transformation with Python)](#3-2021-2022-premier-league-season-analysis-data-exploration-and-transformation-with-python)
+4. [HR Dashboard Visualization (Data Transformation and Visualization with Power BI)](#4-hr-dashboard-visualization-data-transformation-and-visualization-with-power-bi)
+
    
 ## 1. Limpieza Project (Cleaning Data with SQL)
 
@@ -102,3 +104,36 @@ This project showcases several key Python skills, including:
 - [Final Standings Dataset (.csv) – Generated from Exploration](https://github.com/CarlosdlRosa/PortfolioFiles/blob/main/Premier_League_21-22_Final_Standings.csv)
 
 This project demonstrates how data analysis can provide valuable insights into sports performance and league dynamics, highlighting the application of Python for comprehensive data exploration and visualization.
+
+## 4. HR Dashboard Visualization (Data Transformation and Visualization with Power BI)
+
+This project builds on the cleaned data from the **Limpieza Project** and focuses on visualizing employee data through an interactive Power BI dashboard. The dashboard provides powerful insights on key HR metrics such as salaries, promotion-eligible employees, department headcount, and average salary by department. It demonstrates my ability to transform data using **Power Query**, create **calculated columns**, and apply **DAX** to deliver meaningful insights for Human Resources.
+
+### Project Overview
+
+The HR Dashboard was designed to support HR decision-making by presenting key employee data. Key steps involved include:
+
+- **Data Import and Transformation**: Further cleaned and formatted the dataset using Power Query, including additional columns and merging data as needed.
+- **Calculated Columns**: Created new columns to group employees by tenure, age brackets, and salary categories for deeper analysis.
+- **DAX Measures**: Developed custom DAX measures to calculate metrics like average salary, employee turnover rate, and departmental performance.
+- **Interactive Visualizations**: Built interactive visuals (bar charts, pie charts, line graphs) that allow users to explore specific demographics or departments.
+- **HR-Specific Insights**: Delivered actionable insights into topics like salary distribution, potential promotion candidates, and department-wise employee breakdowns.
+
+### Power BI Skills Demonstrated
+
+This project highlights the following skills:
+
+- **Data Transformation**: Extensive use of Power Query for data cleaning and transformation.
+- **DAX Formulas**: Developed custom DAX measures to calculate HR-specific KPIs like salary averages and turnover rates.
+- **Calculated Columns**: Generated new columns for age, salary brackets, and performance categorization.
+- **Interactive Dashboards**: Designed an interactive dashboard that allows filtering and drill-down into HR metrics.
+- **Data Visualization**: Created visuals like bar charts and pie charts to present data in a clear and accessible way.
+
+### Files
+
+- [Dataset (.csv)](https://github.com/CarlosdlRosa/PortfolioFiles/blob/main/new_limpieza.csv)
+- [Power BI Dashboard (.pbix)](https://github.com/CarlosdlRosa/PortfolioFiles/blob/main/Limpieza_HR_Dashboard.pbix)
+
+### Conclusion
+
+This project demonstrates how effective data visualization can provide valuable insights for HR decision-making. The HR Dashboard highlights my ability to transform raw data into actionable, interactive reports that support strategic decisions in Human Resources.
